@@ -4,3 +4,60 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Get_val	unguarded_quick_sort.cpp	/^int Get_val(RandomIter l, RandomIter r) {$/;"	f
+N	test.cpp	17;"	d	file:
+RandomIter	RandomIter.h	/^    RandomIter(const RandomIter &iter) : data(iter.data) {}$/;"	f	class:RandomIter
+RandomIter	RandomIter.h	/^    RandomIter(int *p) : data(p) {}$/;"	f	class:RandomIter
+RandomIter	RandomIter.h	/^class RandomIter {$/;"	c
+_COMPARE_H	compare.h	7;"	d
+_HEAD_H	head.h	7;"	d
+_HEAP_SORT_H	heap_sort.h	7;"	d
+_RANDOMITER	RandomIter.h	7;"	d
+_SORT_H	sort.h	7;"	d
+_UNGUARDED_INSERT_SORT_H	unguarded_insert_sort.h	7;"	d
+_UNGUARDED_QUICK_SORT_H	unguarded_quick_sort.h	7;"	d
+_VECTOR_H	vector.h	7;"	d
+__size	vector.h	/^    int __size, length;              $/;"	m	class:vector
+begin	vector.h	/^    RandomIter begin() {$/;"	f	class:vector
+clear	vector.h	/^    void clear() {    $/;"	f	class:vector
+data	RandomIter.h	/^    int *data;$/;"	m	class:RandomIter
+data	vector.h	/^    int *data;                     $/;"	m	class:vector
+downUpdate	heap_sort.cpp	/^void downUpdate(RandomIter arr, int n, int ind, function<bool(int &, int &)> &point) { $/;"	f
+end	vector.h	/^    RandomIter end() {$/;"	f	class:vector
+erase	vector.h	/^    bool erase(RandomIter it) {$/;"	f	class:vector
+erase	vector.h	/^    bool erase(int ind) { $/;"	f	class:vector
+expand	vector.h	/^    bool expand() {			   $/;"	f	class:vector
+greater	compare.h	/^class greater {$/;"	c
+heap_sort	heap_sort.cpp	/^void heap_sort(RandomIter arr, int n, function<bool(int &, int &)> &point) {$/;"	f
+insert	vector.h	/^    bool insert(RandomIter it, int val) {$/;"	f	class:vector
+insert	vector.h	/^    bool insert(int ind, int val) {$/;"	f	class:vector
+length	vector.h	/^    int __size, length;              $/;"	m	class:vector
+less	compare.h	/^class less {$/;"	c
+main	test.cpp	/^int main() {$/;"	f
+operator !=	RandomIter.h	/^    bool operator!=(const RandomIter &iter) { return !(data == iter.data); }$/;"	f	class:RandomIter
+operator ()	compare.h	/^    bool operator()(int &a, int &b) {$/;"	f	class:greater
+operator ()	compare.h	/^    bool operator()(int &a, int &b) {$/;"	f	class:less
+operator *	RandomIter.h	/^    int& operator*() { return *data; }$/;"	f	class:RandomIter
+operator +	RandomIter.h	/^    RandomIter operator+(int step) { return RandomIter(data + step); }$/;"	f	class:RandomIter
+operator ++	RandomIter.h	/^    RandomIter operator++(int) {$/;"	f	class:RandomIter
+operator ++	RandomIter.h	/^    RandomIter& operator++() { ++data; return *this; }$/;"	f	class:RandomIter
+operator -	RandomIter.h	/^    RandomIter operator-(int step) { return RandomIter(data - step); }$/;"	f	class:RandomIter
+operator -	RandomIter.h	/^    int operator-(const RandomIter &iter) { return data - iter.data; }$/;"	f	class:RandomIter
+operator --	RandomIter.h	/^    RandomIter operator--(int) {$/;"	f	class:RandomIter
+operator --	RandomIter.h	/^    RandomIter& operator--() { --data; return *this; }$/;"	f	class:RandomIter
+operator <	RandomIter.h	/^    bool operator<(const RandomIter &iter) const {$/;"	f	class:RandomIter
+operator <=	RandomIter.h	/^    bool operator<=(const RandomIter &iter) const {$/;"	f	class:RandomIter
+operator ==	RandomIter.h	/^    bool operator==(const RandomIter &iter) { return data == iter.data; }$/;"	f	class:RandomIter
+operator >	RandomIter.h	/^    bool operator>(const RandomIter &iter) const {$/;"	f	class:RandomIter
+operator >=	RandomIter.h	/^    bool operator>=(const RandomIter &iter) const {$/;"	f	class:RandomIter
+operator []	RandomIter.h	/^    int& operator[](int step) { return *(data + step); }$/;"	f	class:RandomIter
+operator []	vector.h	/^    int& operator[](int ind) {$/;"	f	class:vector
+output	test.cpp	/^void output(vector &vec, const char *str) {$/;"	f
+push_back	vector.h	/^    bool push_back(int val) {$/;"	f	class:vector
+size	vector.h	/^    int size() {$/;"	f	class:vector
+sort	sort.cpp	/^void sort(RandomIter head, RandomIter tail, function<bool(int&, int&)> point) {$/;"	f
+threshold	head.h	20;"	d
+unguarded_insert_sort	unguarded_insert_sort.cpp	/^void unguarded_insert_sort(RandomIter head, RandomIter tail, function<bool(int&, int&)> &point) {$/;"	f
+unguarded_quick_sort	unguarded_quick_sort.cpp	/^void unguarded_quick_sort(RandomIter head, RandomIter tail, function<bool(int&, int&)> &point, int depth_limit) {$/;"	f
+vector	vector.h	/^    vector(int n = 3) {$/;"	f	class:vector
+vector	vector.h	/^class vector {$/;"	c
